@@ -1,0 +1,18 @@
+{
+  "name": "israel-train-data-analyses",
+  "version": "0.1.0",
+  "description": "Node.js data analyses of Israeli Train arrivals",
+  "repository":"https://github.com/MaaikeB/israel-train-data-analyses.git",
+  "main": "stops.coffee",
+  "dependencies": {
+    "coffee-script": "^1.8.0",
+    "fast-csv": "^0.5.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+     "start": "coffee stops.coffee",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Maaike van der Brugghen<brugghen@gmail.com>",
+  "license": "no"
+}
